@@ -1,0 +1,78 @@
+# Edge Case Testing
+
+# Test 1: Matrix aliasing - same matrix as input and output
+read_mat MAT_A, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+print_mat MAT_A
+add_mat MAT_A, MAT_A, MAT_A
+print_mat MAT_A
+
+# Test 2: Zero matrix operations
+read_mat MAT_B, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+print_mat MAT_B
+mul_mat MAT_A, MAT_B, MAT_C
+print_mat MAT_C
+
+# Test 3: Identity matrix operations
+read_mat MAT_D, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+print_mat MAT_D
+mul_mat MAT_A, MAT_D, MAT_E
+print_mat MAT_E
+
+# Test 4: Scalar multiplication with zero
+mul_scalar MAT_A, 0, MAT_F
+print_mat MAT_F
+
+# Test 5: Scalar multiplication with one
+mul_scalar MAT_A, 1, MAT_F
+print_mat MAT_F
+
+# Test 6: Negative values
+read_mat MAT_B, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16
+print_mat MAT_B
+
+# Test 7: Large and small numbers
+read_mat MAT_C, 999999.99, 0.00001, -999999.99, -0.00001
+print_mat MAT_C
+
+# Test 8: Transpose of transpose should be original
+read_mat MAT_A, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+print_mat MAT_A
+trans_mat MAT_A, MAT_B
+print_mat MAT_B
+trans_mat MAT_B, MAT_C
+print_mat MAT_C
+
+# Test 9: Matrix aliasing with transpose
+trans_mat MAT_A, MAT_A
+print_mat MAT_A
+
+# Test 10: Scalar multiplication with negative
+mul_scalar MAT_A, -2.5, MAT_A
+print_mat MAT_A
+
+# Test 11: Subtraction resulting in zero matrix
+read_mat MAT_D, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80
+print_mat MAT_D
+sub_mat MAT_D, MAT_D, MAT_E
+print_mat MAT_E
+
+# Test 12: Very small decimal values
+read_mat MAT_F, 0.000001, 0.0000001, 0.00000001
+print_mat MAT_F
+
+# Test 13: Reading with fewer values (should pad with zeros)
+read_mat MAT_A, 1
+print_mat MAT_A
+
+# Test 14: Reading with exact 16 values
+read_mat MAT_B, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+print_mat MAT_B
+
+# Test 15: Multiple matrix operations in sequence
+add_mat MAT_A, MAT_B, MAT_C
+sub_mat MAT_C, MAT_A, MAT_D
+mul_mat MAT_D, MAT_B, MAT_E
+trans_mat MAT_E, MAT_F
+print_mat MAT_F
+
+stop

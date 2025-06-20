@@ -1,0 +1,28 @@
+Matrix Calculator
+Available commands: read_mat, print_mat, add_mat, sub_mat, mul_mat, mul_scalar, trans_mat, stop
+Available matrices: MAT_A, MAT_B, MAT_C, MAT_D, MAT_E, MAT_F
+
+Enter command: Missing comma
+Enter command: Undefined matrix name
+Enter command: Enter command: Missing comma
+Enter command: Undefined matrix name
+Enter command: Enter command: Missing comma
+Enter command: Undefined command name
+Enter command: Enter command: Missing comma
+Enter command: Argument is not a real number
+Enter command: Enter command: Missing comma
+Enter command: Illegal comma
+Enter command: Enter command: Missing comma
+Enter command: Enter command: Enter command: Missing comma
+Enter command: Illegal comma
+Enter command: Enter command: Missing comma
+Enter command: Missing comma
+Enter command: Enter command: Missing comma
+Enter command: Multiple consecutive commas
+Enter command: Enter command: Missing comma
+Enter command: Argument is not a scalar
+Enter command: Enter command: Missing comma
+Enter command: Missing argument
+Enter command: Missing argument
+Enter command: Missing argument
+Enter command: Enter command: Program terminated.

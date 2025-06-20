@@ -1,0 +1,36 @@
+# Test 1: Undefined matrix name
+read_mat G_MAT, 3.2, 8
+
+# Test 2: Invalid matrix name (wrong case)
+read_mat a_mat, 3.2, -5.3
+
+# Test 3: Undefined command
+do_it MAT_A, MAT_B, MAT_C
+
+# Test 4: Non-numeric argument
+read_mat MAT_A, abc, 567
+
+# Test 5: Extra text after command
+read_mat MAT_A, 3, -4.2, 6,
+
+# Test 6: Missing argument
+read_mat MAT_A
+
+# Test 7: Illegal comma
+print_mat MAT_A,
+
+# Test 8: Missing comma
+trans_mat MAT_A MAT_B
+
+# Test 9: Multiple consecutive commas
+sub_mat MAT_A, , MAT_B, MAT_C
+
+# Test 10: Scalar argument where matrix expected
+mul_scalar MAT_A, MAT_B, MAT_C
+
+# Additional error cases for robustness
+add_mat MAT_A, MAT_B
+mul_mat MAT_A
+read_mat
+
+stop

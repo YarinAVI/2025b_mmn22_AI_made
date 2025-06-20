@@ -1,0 +1,58 @@
+Matrix Calculator
+Available commands: read_mat, print_mat, add_mat, sub_mat, mul_mat, mul_scalar, trans_mat, stop
+Available matrices: MAT_A, MAT_B, MAT_C, MAT_D, MAT_E, MAT_F
+
+Enter command:     0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command:     0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command:     0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command: Extraneous text after end of command
+Enter command: Enter command: Enter command:     0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command:     1.00     2.35    -7.89     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command:     1.00     2.00     3.00     4.00
+    5.00     6.00     7.00     8.00
+    9.00    10.00    11.00    12.00
+   13.00    14.00    15.00    16.00
+Enter command: Enter command:     1.00     2.35    -7.89     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command: Enter command:     1.00     2.35    -7.89     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command: Enter command:   -58.28   -62.83   -67.37   -71.92
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command: Enter command:     0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command: Enter command:     1.00     5.00     9.00    13.00
+    2.00     6.00    10.00    14.00
+    3.00     7.00    11.00    15.00
+    4.00     8.00    12.00    16.00
+Enter command: Enter command:     0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command: Enter command:     0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+    0.00     0.00     0.00     0.00
+Enter command: Program terminated.
